@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjopet-Adotar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header teto="" class="sticky-top">
+        <nav teto="" class="navbar">
+            <div teto="" class="container">
+    
+               <h2>Para ir para os outros sites clique no menu abaixo</h2>
+    
+      
+                 <div class="dropdown">
+                 <button onclick="myFunction()" class="dropbtn">Menu</button>
+                 <div id="myDropdown" class="dropdown-content">
+                    <a href="sitehome.html">Inicio</a>
+                    <a href="adotar.html">Adotar</a>
+                    <a href="Contato.html">Contato</a>
+                 </div>
+                
+           
+      
+      
+                <script>
+     
+                  function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                  }
+      
+      
+                  window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                  var dropdowns = document.getElementsByClassName("dropdown-content");
+                  var i;
+                  for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+         </script>
+         </div>
+         </div>
+        </nav>
+    </header>
+
+    <h1>Animais Cadastrados</h1>
+
+    <p>Gostaria de doar algum animal? realize o cadastro do animal que adicionaremos a lista a seguir para aumentar as chances de encontrar um lar para ele.
+        
+    </p> <a href="inscrição_adot.html">Realizar Cadastro</a>
+
+    <p> Lista de animais disponiveis para adoção</p>
+
+    <center>
+        <img src="gal.png.jpeg"
+        width="200"
+        height="200">
+       
+       <p>Raça: rottweiler</p> 
+       <p>Idade: 4 mese </p>
+       <p>Genero: masculino</p>
+       <p>Porte: Grande</p>
+       <p>Contato: 99903-8783</p>
+       
+    </center>
+
+
+</body>
+</html>
+    </script>
+
+</body>
+</html>
